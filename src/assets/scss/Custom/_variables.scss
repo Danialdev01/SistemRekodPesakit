@@ -1,0 +1,165 @@
+// @ Vimport colors to use 
+@import "../Base/colors";
+
+
+//* edit styles below 
+//@, Defalt color
+$color1:$black;
+$color2:$black;
+$color3:$blue1;
+//^contra color
+$con-color1:$gray-200;
+$con-color2:$black;
+$con-color3:$black;
+
+//@ Section 
+$body-bg:$color1;
+$body-color:$color2;
+$section-bg:$color1;
+$section-color:$color2;
+
+//@ Font 
+$defalt-font:'Public Sans', sans-serif;
+
+
+//@, Text 
+//^ H1 
+$h1-font:$defalt-font;
+$h1-color:$white;
+
+//^ H2
+$h2-font:$defalt-font;
+$h2-color:$white;
+
+//^ H3
+$h3-font:$defalt-font;
+$h3-color:$white;
+
+//^H4
+$h4-font:$defalt-font;
+$h4-color:$white;
+
+//^H5
+$h5-font:$defalt-font;
+$h5-color:$white;
+
+//^ P
+$p-font:$defalt-font;
+$p-color: $white;
+
+
+
+//@ Button 
+$button-color:$white;
+$button-bg: $blue1;
+$button-border:none;
+//^ hover
+$button-color-hover:$white;
+$buttton-bg-hover:$blue9;
+$button-border-hover : none;
+//^ focus
+$button-color-focus:$white;
+$button-bg-focus:blue10;
+$button-border-focus : 2px solid black;
+
+//@ Input 
+$input-bg:$white;
+$input-color:$black;
+$input-focus-outline:none;
+$input-border:none;
+
+//@ Links
+$link-color:cyan;
+$link-color-hover:cyan;
+$link-decoration:none;
+$link-hover-decoration:none;
+
+//@ saiz font
+$font-large:2.5rem;
+$font-medlarge:2rem;
+$font-med:1.125rem; //^ desktop links
+$font-sm:0.975rem; //^ benda biasa
+$links-size:700;
+
+//@ sizing 
+//^ px
+$px1:1px;
+$px2:2px;
+$px3:3px;
+$px4:4px;
+$px5:5px;
+$px6:6px;
+$px7:7px;
+$px8:8px;
+$px9:9px;
+
+$px10:10px;
+$px11:11px;
+$px12:12px;
+$px13:13px;
+$px14:14px;
+$px15:15px;
+$px16:16px;
+$px17:17px;
+$px18:18px;
+$px19:19px;
+$px20:20px;
+$px25:25px;
+
+$px30:30px;
+$px35:35px;
+$px40:40px;
+$px45:45px;
+$px50:50px;
+$px55:55px;
+$px60:60px;
+$px65:65px;
+$px70:70px;
+$px75:75px;
+$px80:80px;
+$px85:85px;
+$px90:90px;
+$px95:95px;
+$px100:100px;
+$px150:150px;
+
+$px100:100px;
+$px200:200px;
+$px300:300px;
+$px400:400px;
+$px500:500px;
+$px600:600px;
+$px700:700px;
+$px800:800px;
+$px900:900px;
+$px1000:1000px;
+
+//^ %
+$percent1:1%;
+$percent2:2%;
+$percent3:3%;
+$percent4:4%;
+$percent5:5%;
+$percent6:6%;
+$percent7:7%;
+$percent8:8%;
+$percent9:9%;
+$percent10:10%;
+
+$percent20:20%;
+$percent25:25%;
+$percent30:30%;
+$percent35:35%;
+$percent40:40%;
+$percent45:45%;
+$percent50:50%;
+$percent55:55%;
+$percent60:60%;
+$percent65:65%;
+$percent70:70%;
+$percent75:75%;
+$percent80:80%;
+$percent85:85%;
+$percent90:90%;
+$percent95:95%;
+$percent100:100%;

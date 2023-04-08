@@ -1,0 +1,16 @@
+@import "./Themes/dark.scss";
+@import "./Themes/light.scss";
+@import "./Custom/variables";
+@import "./Base/colors";
+@import "./Base/setcolor";
+@import "./Base/customsets";
+@import "./Base/mixins";
+@import "./Base/globals";
+@import "./Base/font";
+@import "./Custom/header";
+@import "./Custom/footer";
+@import "./Custom/body";
+
+//^ Animations
+@import "./Animations/animation-variables";
+@import "./Animations/slide-in";

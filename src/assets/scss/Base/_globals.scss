@@ -1,0 +1,128 @@
+//@ Section Styling 
+html {
+    font-size: $percent100;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $defalt-font;
+    line-height: 1.3;
+    font-size: $font-med;
+    background-color: $body-bg;
+    color: $body-color;
+    width: $percent100;
+    height: $percent100;
+    overflow-x: hidden;
+}
+section {
+    width: $percent100;
+    float: left;
+    height: 100vh;
+    position: relative;
+    background-color: $section-bg;
+    color: $section-color;
+}
+
+
+//@ Link
+a{
+    color: $link-color;
+    text-decoration: $link-decoration;
+
+    &:hover{
+        color: $link-color-hover;
+        text-decoration: $link-hover-decoration;
+    }
+}
+
+//@ Button 
+button{
+    background-color: $button-bg;
+    color: $button-color;
+    border: $button-border;
+
+    &:hover{
+        background-color: $buttton-bg-hover;
+        color: $button-color-hover;
+        border: $button-border-hover;
+    }
+    &:focus{
+        background-color: $button-bg-focus;
+        color: $button-color-focus;
+        border: $button-border-focus;
+    }
+}
+
+input{
+    background-color: $input-bg;
+    color: $input-color;
+    border:$input-border;
+
+    &:focus{
+        outline: $input-focus-outline;
+    }
+}
+
+//@ Text
+h1 {
+    font-style: $h1-font;
+    color: $h1-color;
+}
+h2 {
+    font-style: $h2-font;
+    color: $h2-color;
+}
+h3 {
+    font-style: $h3-font;
+    color: $h3-color;
+}
+h4 {
+    font-style: $h4-font;
+    color: $h4-color;
+}
+h5 {
+    font-style: $h5-font;
+    color: $h5-color;
+}
+p {
+    font-style: $p-font;
+    color: $p-color;
+}
+ul li {
+    list-style: none;
+    text-decoration-color: none;
+}
+
+.hide-for-mobile {
+    @include breakpoint-down(small){
+        display: none;
+    }
+}
+
+.hide-for-desktop {
+    @include breakpoint-up(medium){
+        display: none;
+    }
+}
+.flex{
+    display: flex;
+}
+.m-flex{
+    @include breakpoint-down(small){
+        display: flex;
+    }
+}
+.d-flex{
+    @include breakpoint-up(large){
+        display: flex;
+    }
+}
+

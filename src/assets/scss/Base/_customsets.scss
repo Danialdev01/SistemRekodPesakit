@@ -1,0 +1,340 @@
+//* Section based 
+.main-container{
+    padding-right: $percent4;
+    padding-left: $percent4;
+}
+
+//* Sizing 
+.fit{width: fit-content;}
+.max{width: max-content;}
+.w{
+    &-1{width: $px10;}
+    &-2{width: $px20;}
+    &-3{width: $px30;}
+    &-4{width: $px40;}
+    &-5{width: $px50;}
+    &-6{width: $px60;}
+    &-7{width: $px70;}
+    &-8{width: $px80;}
+    &-9{width: $px90;}
+    &-10{width: $px100;}
+
+    &-10per{width: $percent10;}
+    &-20per{width: $percent20;}
+    &-30per{width: $percent30;}
+    &-40per{width: $percent40;}
+    &-50per{width: $percent50;}
+    &-60per{width: $percent60;}
+    &-70per{width: $percent70;}
+    &-80per{width: $percent80;}
+    &-90per{width: $percent90;}
+    &-100per{width: $percent100;}
+}
+.h{
+    &-1{height: $px10;}
+    &-2{height: $px20;}
+    &-3{height: $px30;}
+    &-4{height: $px40;}
+    &-5{height: $px50;}
+    &-6{height: $px60;}
+    &-7{height: $px70;}
+    &-8{height: $px80;}
+    &-9{height: $px90;}
+    &-10{height: $px100;}
+
+    &-10per{height: $percent1;}
+    &-20per{height: $percent20;}
+    &-30per{height: $percent30;}
+    &-40per{height: $percent40;}
+    &-50per{height: $percent50;}
+    &-60per{height: $percent60;}
+    &-70per{height: $percent70;}
+    &-80per{height: $percent80;}
+    &-90per{height: $percent90;}
+    &-100per{height: $percent100;}
+}
+.max{
+    &-w{
+        &-1{max-width: $px100;}
+        &-2{max-width: $px200;}
+        &-3{max-width: $px300;}
+        &-4{max-width: $px400;}
+        &-5{max-width: $px500;}
+        &-6{max-width: $px600;}
+        &-7{max-width: $px700;}
+        &-8{max-width: $px800;}
+        &-9{max-width: $px900;}
+        &-10{max-width: $px1000;}
+    }
+    &-h{
+        &-1{max-height: $px100;}
+        &-2{max-height: $px200;}
+        &-3{max-height: $px300;}
+        &-4{max-height: $px400;}
+        &-5{max-height: $px500;}
+        &-6{max-height: $px600;}
+        &-7{max-height: $px700;}
+        &-8{max-height: $px800;}
+        &-9{max-height: $px900;}
+        &-10{max-height: $px1000;}
+    }
+}
+.min{
+    &-w{
+        &-1{min-width: $px100;}
+        &-2{min-width: $px200;}
+        &-3{min-width: $px300;}
+        &-4{min-width: $px400;}
+        &-5{min-width: $px500;}
+        &-6{min-width: $px600;}
+        &-7{min-width: $px700;}
+        &-8{min-width: $px800;}
+        &-9{min-width: $px900;}
+        &-10{min-width: $px1000}
+    }
+    &-h{
+        &-1{min-height: $px100;}
+        &-2{min-height: $px200;}
+        &-3{min-height: $px300;}
+        &-4{min-height: $px400;}
+        &-5{min-height: $px500;}
+        &-6{min-height: $px600;}
+        &-7{min-height: $px700;}
+        &-8{min-height: $px800;}
+        &-9{min-height: $px900;}
+        &-10{min-height: $px1000;}
+    }
+}
+
+//* Shape styling
+.br{
+    &-1{border-radius: $px5;}
+    &-2{border-radius: $px10;}
+    &-3{border-radius: $px15;}
+    &-4{border-radius: $px20;}
+    &-5{border-radius: $px25;}
+    &-6{border-radius: $px30;}
+    &-7{border-radius: $px45;}
+    &-8{border-radius: $px55;}
+    &-9{border-radius: $px60;}
+    &-10{border-radius:$px65;}
+
+    &-10per{border-radius: $percent1;}
+    &-20per{border-radius: $percent20;}
+    &-30per{border-radius: $percent30;}
+    &-40per{border-radius: $percent40;}
+    &-50per{border-radius: $percent50;}
+    &-60per{border-radius: $percent60;}
+    &-70per{border-radius: $percent70;}
+    &-80per{border-radius: $percent80;}
+    &-90per{border-radius: $percent90;}
+    &-100per{border-radius: $percent100;}
+}
+
+.box{
+    border: solid  black $px1;
+    border-radius: $px5;
+    padding: $px10;
+
+    &-transparent{
+        border: transparent;
+    }
+    &1{border:solid $px1;}
+    &2{border:solid $px2;}
+    &3{border:solid $px3;}
+    &4{border:solid $px4;}
+    &5{border:solid $px5;}
+    &6{border:solid $px6;}
+    &7{border:solid $px7;}
+    &8{border:solid $px8;}
+    &9{border:solid $px9;}
+    &10{border:solid $px10;}
+}
+.circle{
+    border: solid black $px1;
+    border-radius: $percent50;
+    padding: $px20;
+    width: fit-content;
+    height: fit-content;
+}
+
+//* Flex styling
+.flex {
+    display: flex;
+
+    &-jc-sb {
+        justify-content: space-between;
+    }
+
+    &-jc-c {
+        justify-content: center;
+    }
+
+    &-ai-c {
+        align-items: center;
+    }
+}
+
+//* padding
+.p{
+    &-1{padding-right: $px10;padding-left: $px10;}
+    &-2{padding-right: $px20;padding-left: $px20;}
+    &-3{padding-right: $px30;padding-left: $px30;}
+    &-4{padding-right: $px40;padding-left: $px40;}
+    &-5{padding-right: $px50;padding-left: $px50;}
+    &-6{padding-right: $px60;padding-left: $px60;}
+    &-7{padding-right: $px70;padding-left: $px70;}
+    &-8{padding-right: $px80;padding-left: $px80;}
+    &-9{padding-right: $px90;padding-left: $px90;}
+    &-10{padding-right: $px100;padding-left: $px100;}
+
+    &r{
+        &-1{padding-right: $px10;}
+        &-2{padding-right: $px20;}
+        &-3{padding-right: $px30;}
+        &-4{padding-right: $px40;}
+        &-5{padding-right: $px50;}
+        &-6{padding-right: $px60;}
+        &-7{padding-right: $px70;}
+        &-8{padding-right: $px80;}
+        &-9{padding-right: $px90;}
+        &-10{padding-right: $px100;}
+
+        &-10per{padding-right: $percent1;}
+        &-20per{padding-right: $percent20;}
+        &-30per{padding-right: $percent30;}
+        &-40per{padding-right: $percent40;}
+        &-50per{padding-right: $percent50;}
+        &-60per{padding-right: $percent60;}
+        &-70per{padding-right: $percent70;}
+        &-80per{padding-right: $percent80;}
+        &-90per{padding-right: $percent90;}
+        &-100per{padding-right: $percent100;}
+    }
+    &l{
+        &-1{padding-left: $px10;}
+        &-2{padding-left: $px20;}
+        &-3{padding-left: $px30;}
+        &-4{padding-left: $px40;}
+        &-5{padding-left: $px50;}
+        &-6{padding-left: $px60}
+        &-7{padding-left: $px70;}
+        &-8{padding-left: $px80;}
+        &-9{padding-left: $px90;}
+        &-10{padding-left: $px100;}
+
+        &-10per{padding-left: $percent1;}
+        &-20per{padding-left: $percent20;}
+        &-30per{padding-left: $percent30;}
+        &-40per{padding-left: $percent40;}
+        &-50per{padding-left: $percent50;}
+        &-60per{padding-left: $percent60;}
+        &-70per{padding-left: $percent70;}
+        &-80per{padding-left: $percent80;}
+        &-90per{padding-left: $percent90;}
+        &-100per{padding-left: $percent100;}
+    }
+    &t{
+        &-1{padding-top: $px10;}
+        &-2{padding-top: $px20;}
+        &-3{padding-top: $px30;}
+        &-4{padding-top: $px40;}
+        &-5{padding-top: $px50;}
+        &-6{padding-top: $px60}
+        &-7{padding-top: $px70;}
+        &-8{padding-top: $px80;}
+        &-9{padding-top: $px90;}
+        &-10{padding-top: $px100;}
+
+        &-10per{padding-top: $percent1;}
+        &-20per{padding-top: $percent20;}
+        &-30per{padding-top: $percent30;}
+        &-40per{padding-top: $percent40;}
+        &-50per{padding-top: $percent50;}
+        &-60per{padding-top: $percent60;}
+        &-70per{padding-top: $percent70;}
+        &-80per{padding-top: $percent80;}
+        &-90per{padding-top: $percent90;}
+        &-100per{padding-top: $percent100;}
+    }
+    &b{
+        &-1{padding-bottom: $px10;}
+        &-2{padding-bottom: $px20;}
+        &-3{padding-bottom: $px30;}
+        &-4{padding-bottom: $px40;}
+        &-5{padding-bottom: $px50;}
+        &-6{padding-bottom: $px60}
+        &-7{padding-bottom: $px70;}
+        &-8{padding-bottom: $px80;}
+        &-9{padding-bottom: $px90;}
+        &-10{padding-bottom: $px100;}
+
+        &-10per{padding-bottom: $percent1;}
+        &-20per{padding-bottom: $percent20;}
+        &-30per{padding-bottom: $percent30;}
+        &-40per{padding-bottom: $percent40;}
+        &-50per{padding-bottom: $percent50;}
+        &-60per{padding-bottom: $percent60;}
+        &-70per{padding-bottom: $percent70;}
+        &-80per{padding-bottom: $percent80;}
+        &-90per{padding-bottom: $percent90;}
+        &-100per{padding-bottom: $percent100;}
+    }
+}
+
+// ailign thing 
+.left{
+    text-align: left;
+
+    &-1{left: $px10;}
+    &-2{left: $px20;}
+    &-3{left: $px30;}
+    &-4{left: $px40;}
+    &-5{left: $px50;}
+    &-6{left: $px60;}
+    &-7{left: $px70;}
+    &-8{left: $px80;}
+    &-9{left: $px90;}
+    &-10{left: $px100;}
+}
+
+.right{
+    text-align: right;
+
+    &-1{right: $px10;}
+    &-2{right: $px20;}
+    &-3{right: $px30;}
+    &-4{right: $px40;}
+    &-5{right: $px50;}
+    &-6{right: $px60;}
+    &-7{right: $px70;}
+    &-8{right: $px80;}
+    &-9{right: $px90;}
+    &-10{right: $px100;}
+}
+.top{
+    top: $percent100;
+    &-1{top: $px10;}
+    &-2{top: $px20;}
+    &-3{top: $px30;}
+    &-4{top: $px40;}
+    &-5{top: $px50;}
+    &-6{top: $px60;}
+    &-7{top: $px70;}
+    &-8{top: $px80;}
+    &-9{top: $px90;}
+    &-10{top: $px100;}
+}
+.bottom{
+    bottom: $percent100;
+    &-1{bottom: $px10;}
+    &-2{bottom: $px20;}
+    &-3{bottom: $px30;}
+    &-4{bottom: $px40;}
+    &-5{bottom: $px50;}
+    &-6{bottom: $px60;}
+    &-7{bottom: $px70;}
+    &-8{bottom: $px80;}
+    &-9{bottom: $px90;}
+    &-10{bottom: $px100;}
+}
