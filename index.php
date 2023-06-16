@@ -14,7 +14,7 @@
 <body>
     <div class="main-container">
         <center>
-            <h2 class="white">Rekod Maklumat Pesakit</h2>
+            <h2 class="white">Rekod Maklumat Pesakit.</h2>
         </center>
     </div>
     <center>
