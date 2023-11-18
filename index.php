@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistem Rekod Pesakit</title>
+    <link rel="manifest" href="/manifest.json" />
     <link rel="stylesheet" href="./src/assets/css/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Danialdev01/EasySassTemplate@CDN-READY/src/assets/css/main.css">
 </head>
@@ -49,5 +50,7 @@
         </table>
         <p><a href="tambah.php"><button class="white p-2">+ Tambah</button></a></p>
     </center>
+    <button id="install">Install this app</button>
+    <script src="/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,16 @@
+{
+	"short_name": "Rekod Pesakit",
+	"name": "Sistem Rekod Pesakit",
+	"icons": [
+		{
+			"src": "/src/assets/img/chill d.bot logo.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		}
+	],
+	"start_url": "/?source=pwa",
+	"background_color": "#3367D6",
+	"display": "standalone",
+	"scope": "/",
+	"theme_color": "#3367D6"
+}
